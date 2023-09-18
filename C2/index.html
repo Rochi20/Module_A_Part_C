@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C3</title>
+
+    <style>
+        .container{
+            width: 500px;
+            position: relative;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .circle{
+            position: absolute;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            opacity: .5;
+            aspect-ratio: 1/1;
+            width: 50px;
+            filter: blur(2px);
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="background.jpg" alt="meteor shower">
+        <div class="circle"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
